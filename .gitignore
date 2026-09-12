@@ -1,0 +1,43 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments and editor settings
+.venv/
+venv/
+env/
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Datasets and prepared image/label folders
+data/
+datasets/
+pure_color_v1/
+pure_color_v2/
+demosaiced/
+gt/
+numpy_data/
+numpy_labels/
+
+# Generated results and model weights
+outputs/
+results/
+checkpoints/
+logs/
+*.pth
+*.pt
+*.ckpt
+
+# Local visualization and profiling artifacts
+visualizations/
+profile_results*.json
+
+# Archives
+*.zip
+*.7z
+*.rar
